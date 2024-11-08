@@ -5,6 +5,13 @@
     font-family: "Roboto", sans-serif;
 }
 
+:root {
+    --primary-colour: #1f2937;
+    --accent-colour: #f9faf8;
+    --secondary-colour: #E5E7EB;
+    --cta-colur: #3882F6;
+}
+
 .nav-container {
     color: #f9faf8;
     background-color: #1f2937;
@@ -18,6 +25,7 @@
     width: 900px;
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
 }
 
 .nav-links {
@@ -32,4 +40,38 @@
 
 .header-logo {
     font-style: bold;
+}
+
+.header-container {
+    background-color: var(--primary-colour);
+    color: var(--accent-colour);
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 400px;
+    padding-top: 60px;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header p {
+    padding-top: 10px;
+    color: var(--secondary-colour);
+    font-size: 18px;
+}
+
+.header button {
+    margin-top: 10px;
+    border: none;
+    color: var(--accent-colour);
+    background-color: var(--cta-colur);
+    padding: 8px 32px;
+    border-radius: 5px;
+    font-weight: bold;
 }
